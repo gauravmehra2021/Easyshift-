@@ -1,3 +1,4 @@
+"use client";
 import { FaArrowRight, FaCheckCircle } from "react-icons/fa";
 // import { ImageWithFallback } from "./figma/ImageWithFallback";
 
@@ -38,10 +39,27 @@ const Hero = () => {
 
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4">
-              <button className="bg-[#9ACD32] text-[#2f2f2f] px-8 py-4 rounded-lg font-medium hover:opacity-90 transition flex items-center justify-center">
+              <button
+               onClick={() =>
+    document.getElementById("contact")?.scrollIntoView({
+      behavior: "smooth",
+    })
+  }
+              className="bg-[#9ACD32] text-[#2f2f2f] px-8 py-4 rounded-lg font-medium hover:opacity-90 transition flex items-center justify-center">
                 Get Free Quote
                 <FaArrowRight className="w-5 h-5 ml-2" />
               </button>
+
+
+
+
+
+
+
+
+
+
+
 
               <button className="border-2 border-[#9ACD32] text-[#2f2f2f] px-8 py-4 rounded-lg font-medium hover:bg-[#f4f8ea] transition">
                 Call Now
