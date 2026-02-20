@@ -94,11 +94,11 @@ export default function Header() {
         {open && (
           <div className="md:hidden bg-white border-t border-gray-200">
             <nav className="flex flex-col px-4 py-4 gap-4">
-              <a className="font-medium text-[#9ACD32]">Home</a>
-              <a className="font-medium text-[#2f2f2f]">About</a>
-              <a className="font-medium text-[#2f2f2f]">Services</a>
-              <a className="font-medium text-[#2f2f2f]">Gallery</a>
-              <a className="font-medium text-[#9ACD32]">Get Quote</a>
+              <a  href="#home" className="font-medium text-[#9ACD32]">Home</a>
+              <a   href="#about" className="font-medium text-[#2f2f2f]">About</a>
+              <a  href="#services" className="font-medium text-[#2f2f2f]">Services</a>
+              <a  href="#gallery" className="font-medium text-[#2f2f2f]">Gallery</a>
+              <a  href="#contact" className="font-medium text-[#9ACD32]">Get Quote</a>
             </nav>
           </div>
         )}
