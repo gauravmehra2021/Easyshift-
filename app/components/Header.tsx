@@ -20,7 +20,7 @@ export default function Header() {
               <span>Toronto Location</span>
               <div className="flex items-center gap-1">
               <FaPhoneAlt />
-              <span>+1-236-880-2370</span>
+              <span>+1-236-880-5678</span>
               </div>
             </div>
 
@@ -30,7 +30,7 @@ export default function Header() {
 
                   <div className="flex items-center gap-1">
               <FaPhoneAlt />
-              <span>+1-437-998-9710</span>
+              <span>+1-437-998-8017</span>
               </div>
             </div>
           </div>

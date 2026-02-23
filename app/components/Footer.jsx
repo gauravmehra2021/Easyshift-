@@ -92,25 +92,25 @@ const Footer = () => {
             <li className="flex gap-3">
               <FaMapMarkerAlt className="text-[#9ACD32] mt-1" />
               <span>
-                4025 Brandon Gate Dr, Mississauga, ON L4T 3Z9, Canada
+                4028 Gate Dr, Mississauga, ON L4T 3Z4, Canada
               </span>
             </li>
 
             <li className="flex gap-3">
               <FaMapMarkerAlt className="text-[#9ACD32] mt-1" />
               <span>
-                1200 Aerowood Dr #29, Mississauga, ON L4W 2S7, Canada
+                1220 Dr #29, Mississauga, ON L4W 2S9, Canada
               </span>
             </li>
 
             <li className="flex gap-3">
               <FaEnvelope className="text-[#9ACD32] mt-1" />
-              <span>info@sudanmovers.com</span>
+              <span>info@Easyshiftmovers.com</span>
             </li>
 
             <li className="flex gap-3">
               <FaPhoneAlt className="text-[#9ACD32] mt-1" />
-              <span>+1-236-880-2370</span>
+              <span>+1-236-880-23777</span>
             </li>
           </ul>
         </div>
